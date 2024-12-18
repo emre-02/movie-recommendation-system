@@ -59,16 +59,19 @@ posters = 0
 movies = 0
 
 with st.sidebar:
-    st.image("images/app1.png", use_column_width=True)
-    st.header("Get Recommendations by 👇")
-    search_type = st.radio("", ('Movie Title'))
-    st.header("Source Code 📦")
-    st.markdown("[GitHub Repository](https://github.com/emre-02/movie-recommendation-system)")    
+    st.image("images/app1.png", use_container_width=True)
+    
+    st.header("Öneri Alın 👇")
+    search_type = st.radio("", ['Film Başlığı'])  
+    
+    st.header("Kaynak Kod 📦")
+    st.markdown("[GitHub Deposu](https://github.com/emre-02/movie-recommendation-system)")
+    
     st.header("Blog 📝")
-    st.markdown("[Medium Article](https://medium.com/@ozturky81)")
+    st.markdown("[Medium Makalesi](https://medium.com/@ozturky81)")
 
 
-if search_type == 'Movie Title': 
+if search_type == 'Film Başlığı': 
     st.subheader("Select Movie🎬")   
     movie_name = st.selectbox('', df.title)
     if st.button('Recommend 🚀'):
