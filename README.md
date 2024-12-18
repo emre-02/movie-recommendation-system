@@ -1,8 +1,11 @@
-![](https://hizliresim.com/786pb27)
+![](https://i.hizliresim.com/786pb27.png)
 
 ## 📌 Proje Hakkında
 
-Bu proje, içerik tabanlı bir öneri sistemi geliştirmek için TF-IDF ve Cosine Similarity kullanarak oluşturulmuş bir Streamlit uygulamasıdır. Sistem, [TMDB 5000 Movie Dataset] (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) veriseti üzerinde çalışmaktadır ve kullanıcılara benzer içerikler önermektedir.
+Bu proje, içerik tabanlı bir öneri sistemi geliştirmek için TF-IDF ve Cosine Similarity kullanarak oluşturulmuş bir Streamlit uygulamasıdır. Sistem,
+[TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) veriseti üzerinde çalışmaktadır ve kullanıcılara benzer içerikler önermektedir.
+
+- [Live Site URL](https://movie-rr.streamlit.app/)
 
 
  ## 🎯 Özellikler
@@ -31,8 +34,8 @@ Proje geliştirme sürecinde aşağıdaki temel adımlar izlenmiştir:
 - Normalize edilmiş benzerlik skorları
 - Benzerlik matrisinin optimizasyonu
 
-- [Solution URL](https://github.com/emre-02/Clipboard-landing-page)
-- [Live Site URL](https://emre-02.github.io/Clipboard-landing-page/)
+
+
 
 ## 🛠️ Kullanılan Teknolojiler
 
